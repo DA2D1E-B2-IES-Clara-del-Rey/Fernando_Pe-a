@@ -1,0 +1,93 @@
+body{
+    background-color:aqua ;
+    font-family: 'PT Sans', sans-serif;
+}
+.navio{
+    background-color: blue;
+    margin: auto;
+    width: 90%;
+   
+}
+
+.botones{
+    color: white;
+}
+
+.navbar-brand {
+    border-radius: 5px;
+  }
+
+  .nav-item {
+    padding: 0 10px;
+  }
+  .acorde{
+    width: 90%;
+  }
+
+  .container-fluid {
+   width: 100%;
+   padding: 0px;
+  border-radius: 0 0 10px 10px; /* Esquinas redondas */
+  }
+  .cuadro {
+    background-color: rgb(1, 5, 255);
+    opacity: 0.5;
+    padding: 20px; /*para generar un recuadro en el contacto*/
+    color:white;
+    border-radius: 10px;
+    text-align: center;
+  }
+ 
+ h1 {
+    font-family: 'Helvetica', cursive !important; /* he cambiado la tipigrafia */
+    color: blue;
+ }
+
+  h2 {
+      font-family: 'Times New Roman', cursive !important; /* he cambiado la tipigrafia */
+      color: blue;
+      text-align: center;
+  }
+
+
+ 
+ .card-header {
+     font-family: 'Alkatra', cursive;
+     font-size: 30px;
+     color: white;
+ }
+
+ .card-text .a {
+     font-family: 'Times New Roman', cursive;
+     font-size: 18px;
+     color: white;
+ }
+
+ a {
+    background-color: rgb(197, 189, 215)
+ }
+ .accordion-button {
+
+    background-color: blueviolet !important;
+    border: 5px solid white;
+ }
+
+ a:link,
+ a:visited {
+     background-color: #3477c5;
+     color: white;
+     padding: 9px 9px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+ }
+
+ a:hover,
+ a:active {
+     background-color: rgb(30, 0, 255);
+ }
+
+ .copyleft {
+     display: inline-block;
+     transform: rotate(180deg);
+ }
