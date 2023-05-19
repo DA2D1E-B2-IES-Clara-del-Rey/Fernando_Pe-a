@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /cgi-bin/
+
+User-agent: Googlebot
+Disallow: /private/
+
+User-agent: Bingbot
+Disallow: /temp/

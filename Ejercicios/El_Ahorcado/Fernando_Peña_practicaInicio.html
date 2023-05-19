@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="Fernando_Peña_practica4.css">
+  <title>Antesala del Juego del Ahorcado</title>
+</head>
+
+<body id="bodyinicio">
+  <div class="container">
+    <header id="headerinicio">
+      <h1 class="mt-4">Bienvenido al Juego del Ahorcado</h1>
+      <p>¡Prepárate para desafiar tus habilidades de adivinanza!</p>
+    </header>
+
+    <main id="maininicio">
+
+      <section id="reglasAcordeon" class="accordion mt-4">
+        <article class="card">
+          <header class="card-header" id="reglasHeading">
+            <h3 class="mb-0">
+              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                data-target="#reglasCollapse" aria-expanded="false" aria-controls="reglasCollapse">
+                Reglas/instrucciones del Juego
+              </button>
+            </h3>
+          </header>
+      
+          <div id="reglasCollapse" class="collapse" aria-labelledby="reglasHeading" data-parent="#reglasAcordeon">
+            <div class="card-body">
+              <p>El juego del ahorcado es un divertido desafío en el que tendrás que adivinar una palabra oculta que te proporciona el ordenador. El objetivo del juego es descubrir la palabra antes de quedarte sin vidas.El juego empieza nada mas estes en la pagina, pero para que te den la palabra a adivinar tendras que darle a "nueva palabra". Cada vez que elijas una letra incorrecta, perderás una vida, y si pierdes 6 vidas en total, perderás el juego.
+      
+                Si logras adivinar una palabra correctamente, obtendrás 2 puntos. Sin embargo, para avanzar a la siguiente palabra, deberás presionar el botón de "Nueva Partida" o "Reiniciar". Ten en cuenta que si eliges reiniciar el juego, obtendras otra palabra automaticamente y perderás todos los puntos acumulados hasta ese momento.
+                
+                Además, es importante tener en cuenta el factor tiempo. Si el tiempo se agota, no podrás seguir acumulando puntos y deberás iniciar una nueva partida para intentar nuevamente superar tu record.
+                
+                ¡Buena suerte y diviértete tratando de adivinar las palabras ocultas en el juego del ahorcado!</p>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      
+
+      <section class="card-columns">
+        <article class="card mt-4">
+          <header class="card-header">
+            <h3 class="mb-0">Historia del Juego del Ahorcado</h3>
+          </header>
+          <div class="card-body">
+            Los orígenes de El Ahorcado son oscuros, pero al parecer surgió en la época victoriana," dice Tony Augarde
+            autor de La Guía de Oxford de Juegos de palabras" (Oxford University Press).
+          </div>
+        </article>
+
+        <br><br><br>
+
+        <article class="card mt-4">
+          <header class="card-header">
+            <h3 class="mb-0">Curiosidades del Juego</h3>
+          </header>
+          <div class="card-body">
+            El juego del ahorcado también se conoce como "el hombre ahorcado" o "el ahorcado".
+            Algunas versiones del juego utilizan un dibujo completo de una persona, mientras que otras utilizan un gallo
+            o
+            cualquier otro dibujo.
+          </div>
+        </article>
+        <article class="card mt-4">
+          <header class="card-header">
+            <h3 class="mb-0">¿Es la primera vez?</h3>
+          </header>
+          <div class="card-body">
+            <img src="./imagenes/meme.png" width="300" height="200" alt="Meme del actor James Franco">
+          </div>
+        </article>
+      </section>
+      <div id="preguntaJugar" class="mt-4">
+        <p>¿Quieres empezar a jugar ya? Veremos si eres digno...</p>
+        <p>¿Qué día fue el último ahorcamiento en España?</p>
+        <button id="opcion1" class="btn btn-primary">12 de octubre 1492</button>
+        <button id="opcion2" class="btn btn-primary">27 de septiembre 1975</button>
+        <button id="opcion3" class="btn btn-primary">11 de julio de 2010</button>
+      </div>
+
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="Fernando_Peña_practica.js"></script>
+
+    <script>
+      document.getElementById("opcion2").addEventListener("click", function () {
+        window.location.href = "./Fernando_Peña_practica4.html";
+      });
+      document.getElementById("opcion1").addEventListener("click", function () {
+        alert("¿No te suena esta fecha? El 12 de octubre de 1492 es la fecha del descubrimiento de América.");
+      });
+
+      document.getElementById("opcion3").addEventListener("click", function () {
+        alert("¡PERO BUENO! Si el 11 de julio de 2010 es la fecha en la que España ganó el Mundial de Fútbol.");
+      });
+    </script>
+</body>
+
+</html>
